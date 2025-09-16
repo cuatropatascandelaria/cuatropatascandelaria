@@ -27,4 +27,20 @@ main h1, section h1, main h2, section h2 {
   margin-bottom: 20px;
   text-align: center;
 }
+/* Márgenes y estilos para todas las páginas excepto Inicio */
+main:not(.inicio), 
+main:not(.inicio) section {
+  margin: 40px auto;
+  padding: 20px;
+  max-width: 1000px;
+  line-height: 1.6;
+}
+
+/* Títulos más centrados y con espacio */
+main:not(.inicio) h1, 
+main:not(.inicio) h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
 
