@@ -9,7 +9,16 @@
 <body>
   <header>
     <div class="logo">
-      <img src="img/logo.png" alt="SOS Cuatro Patas">
+      <img src="img/logo.png" alt="SOS Cuatro Patas" class="logo">
+        <style>
+          .logo {
+  width: 100px;      /* Ancho fijo del logo */
+  height: 100px;     /* Alto fijo del logo */
+  object-fit: cover; /* Recorta sin deformar */
+  border-radius: 50%;/* Lo hace circular */
+  display: block;
+  margin: 0 auto;    /* Centrado */
+}
       <h1>SOS Cuatro Patas</h1>
       <p class="slogan animado">Cada cirugía cuenta, cada vida importa</p>
     </div>
