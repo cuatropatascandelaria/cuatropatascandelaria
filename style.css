@@ -15,12 +15,6 @@ nav ul li a { color: white; text-decoration: none; padding: 8px 12px; }
 @keyframes aparecer { from {opacity:0;} to {opacity:1;} }
 .galeria { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; padding: 20px; }
 .galeria img { width: 100%; border-radius: 8px; }
-main, section {
-  margin: 40px auto;     /* Espacio arriba y abajo */
-  padding: 20px;         /* Espacio interno */
-  max-width: 1000px;     /* Para que el texto no se expanda demasiado */
-  line-height: 1.6;      /* Mejora la lectura */
-}
 
 /* Para títulos dentro de cada página */
 main h1, section h1, main h2, section h2 {
