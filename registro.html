@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Registro - SOS Cuatro Patas</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="registro.html" class="btn-registro">Registro</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Registro de Esterilización</h2>
+    <form id="registroForm">
+      <input type="text" name="propietario" placeholder="Nombre del propietario" required>
+      <input type="text" name="mascota" placeholder="Nombre de la mascota" required>
+      <input type="text" name="especie" placeholder="Especie" required>
+      <input type="text" name="raza" placeholder="Raza" required>
+      <input type="text" name="lugar" placeholder="Lugar de residencia" required>
+      <input type="date" name="fecha" required>
+      <button type="submit">Registrar</button>
+    </form>
+    <p id="mensaje"></p>
+  </main>
+
+  <footer>
+    <p>© 2025 SOS Cuatro Patas - Candelaria, Valle del Cauca</p>
+  </footer>
+</body>
+</html>
