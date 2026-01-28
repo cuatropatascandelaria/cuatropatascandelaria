@@ -12,11 +12,11 @@ body {
   background: var(--rosaprincipal);
   color: #333;
 }
-header { background: var(--rosaoscuro); padding: 15px; color: var(--blanco); text-align: center; }
+header { background: var(--rosaoscuro); padding: 15px; color: var(--rosaprincipal); text-align: center; }
 nav ul { list-style: none; padding: 0; margin: 0; }
 nav ul li { display: inline-block; margin: 0 10px; }
 nav ul li a { color: white; text-decoration: none; padding: 8px 12px; }
-.btn-registro { background: #f4a261; border-radius: 5px; }
+.btn-registro { background: var(--rosaoscuro); border-radius: 5px; }
 .contador { text-align: center; margin: 50px auto; }
 #contador { font-size: 3em; font-weight: bold; color: #fd7979; }
 .slogan.animado { opacity: 0; animation: aparecer 3s forwards; }
