@@ -1,10 +1,18 @@
+:root {
+  --rosaprincipal: #ffcdc9F;
+  --rosaoscuro: #fd7979;
+  --blanco: #FFFFFF;
+  --gris-fondo: #F8F9FA;
+  --acento: #F4A261;
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background: #FDACAC;
+  background: var(--rosaprincipal);
   color: #333;
 }
-header { background: #FDACAC; padding: 15px; color: #FDACAC; text-align: center; }
+header { background: var(--rosaoscuro); padding: 15px; color: var(--blanco); text-align: center; }
 nav ul { list-style: none; padding: 0; margin: 0; }
 nav ul li { display: inline-block; margin: 0 10px; }
 nav ul li a { color: white; text-decoration: none; padding: 8px 12px; }
