@@ -9,7 +9,7 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background: var(--rosaprincipal);
+  background: var(--blanco);
   color: #333;
 }
 header { background: var(--rosaprincipal); padding: 15px; color: var(--rosaoscuro); text-align: center; }
